@@ -8,9 +8,6 @@
 
 ![Screenshot](.github/screenshot.png)
 
-## 🍎 Demo
-
-👉 **View [Demo Page](https://apple.gatsbyjs.io/)**
 
 ## ✨ Features
 
