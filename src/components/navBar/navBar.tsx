@@ -1,7 +1,7 @@
 import React, { useRef, useContext } from "react"
 import styled, { ThemeContext } from "styled-components"
 import { Link } from "gatsby"
-
+import { GatsbyImage } from "gatsby-plugin-image"
 import type { UseThemeReturnType } from "Hooks/useTheme"
 import useSiteMetadata from "Hooks/useSiteMetadata"
 import Background from "Styles/background"
@@ -15,6 +15,8 @@ import useMenu from "./useMenu"
 import LinkList from "./linkList"
 import ThemeToggleButton from "./themeToggleButton"
 import MenuIcon from "./menuIcon"
+import logo from "./logo.png"
+
 
 interface NavBarProps {
   title?: string | null
@@ -40,7 +42,7 @@ const NavBar: React.FC<NavBarProps> = ({ title, themeToggler }) => {
       <NavBackground toggle={toggle} />
       <Content>
         <Title onClick={() => setToggle(false)}>
-          <Link to="/">{title}</Link>
+          <Link to="/"><img src={logo} loading="eager" alt="Ashwin Saxena's Blog" /></Link>
         </Title>
         <LinkWrap>
           <Curtain ref={curtainRef} toggle={toggle} />
