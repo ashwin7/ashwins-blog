@@ -14,7 +14,7 @@ const { name, homepage } = packageJSON
 const Layout: React.FC = ({ children }) => {
   const { theme, themeToggler } = useTheme()
   const { title, author } = useSiteMetadata()
-  const copyrightStr = `Copyright © ${author}. Built by `
+  const copyrightStr = `Copyright © ${author}.`
 
   return (
     <ThemeProvider theme={styledTheme}>
@@ -27,9 +27,6 @@ const Layout: React.FC = ({ children }) => {
         <Footer role="contentinfo">
           <Copyright aria-label="Copyright">
             {copyrightStr}
-            <RepoLink href={homepage} target="__blank">
-              {name}
-            </RepoLink>
           </Copyright>
         </Footer>
       </ThemeContext.Provider>
