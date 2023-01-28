@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
+import { Disqus } from 'gatsby-plugin-disqus';
 
 import type { Query } from "Types/GraphQL"
 import Layout from "Layouts/layout"
@@ -21,6 +22,12 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
   const { title, desc, thumbnail, date, category } = frontmatter!
 
   const ogImagePath = thumbnail && thumbnail?.childImageSharp?.gatsbyImageData?.src
+  
+  const config = {
+    title,
+    url: `https://your-site-url.com${location.pathname}`,
+    identifier: title,
+  }
 
   return (
     <Layout>
@@ -47,6 +54,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
             </InnerWrapper>
           </OuterWrapper>
         </article>
+        <Disqus config={config} />
         <CommentWrap>
           <Comment />
         </CommentWrap>

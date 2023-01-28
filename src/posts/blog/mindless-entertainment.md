@@ -1,7 +1,7 @@
 ---
 title: "Mindless Entertainment"
 category: "Life"
-date: "2023-01-20 12:00:00 +09:00"
+date: "2023-01-29 12:00:00 +09:00"
 desc: "Entry for 29-JAN-2023"
 thumbnail: "./images/movies/pathaan.jpg"
 alt: "pathaan review"

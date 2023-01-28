@@ -191,6 +191,15 @@ const pwaPlugins = [
   "gatsby-plugin-offline",
 ]
 
+const commentPlugin = [
+  {
+  resolve: `gatsby-plugin-disqus`,
+  options: {
+      shortname: `blog-talkingdev`,
+  },
+  },
+]
+
 module.exports = {
   siteMetadata,
   plugins: [
@@ -200,5 +209,6 @@ module.exports = {
     ...markdownPlugins,
     ...searchPlugins,
     ...pwaPlugins,
+    ...commentPlugin,
   ],
 }
