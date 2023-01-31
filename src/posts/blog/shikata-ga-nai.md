@@ -1,5 +1,5 @@
 ---
-title: "Shikita ga nai"
+title: "Shikata ga nai"
 category: "Life"
 date: "2023-01-31 12:00:00 +09:00"
 desc: "Let go"
