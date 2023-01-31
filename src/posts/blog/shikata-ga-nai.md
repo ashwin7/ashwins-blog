@@ -7,7 +7,7 @@ thumbnail: "./images/moving-on/shikita.png"
 alt: "let go"
 ---
 
-There's this Japanese concept called 'Shikita ga nai' ( 仕方がない ) which basically means, "nothing can be done about it".
+There's this Japanese concept called 'Shikata ga nai' ( 仕方がない ) which basically means, "nothing can be done about it".
 
 It is letting go of what we can not change. It's a way of embracing reality and moving on, rather than dwelling on the negatives.
 
