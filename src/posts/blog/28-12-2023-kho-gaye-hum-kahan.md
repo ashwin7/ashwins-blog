@@ -3,8 +3,8 @@ title: "Kho Gaye Hum Kahan"
 category: "Life"
 date: "2023-12-28 12:00:00 +09:00"
 desc: "Entry for 28-Dec-2023"
-thumbnail: "./images/kghk/post.jpg"
-alt: "kho-gaye-hum-kahan"
+thumbnail: "./images/kghk/poster.jpg"
+alt: "kho gaye hum kahan"
 ---
 
 'Social media makes you feel that you are more connected with people around, but in real, you have never been more lonely than this'. 
